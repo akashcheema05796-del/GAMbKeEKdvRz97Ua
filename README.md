@@ -29,11 +29,7 @@ Each row represents one customer’s responses to a short Likert-scale survey (1
 
 **Scale:** 1 (low) → 5 (high)
 
-### Download
-Public subset (CSV):  
-https://drive.google.com/open?id=1KWE3J0uU_sFIJnZ74Id3FDBcejELI7FD
 
-> We will evaluate on a **private hold-out** split.
 
 ---
 
@@ -41,31 +37,11 @@ https://drive.google.com/open?id=1KWE3J0uU_sFIJnZ74Id3FDBcejELI7FD
 
 Predict **customer happiness (`Y`)** from the six survey responses (`X1…X6`).
 
-### Success Metric
-
-- **Primary:** Accuracy ≥ **73%** on our private test set **or** a compelling argument—with evidence—why your approach is superior (e.g., better calibration, fairness, stability, interpretability, or business impact).
-
 ---
 
-## Bonus: Feature Importance & Minimal Question Set
 
-We’re especially interested in **which questions matter most**.  
-Please explore and report:
 
-- **Feature importance** (e.g., permutation importance, SHAP, model-specific importances).  
-- A **minimal subset** of questions that preserves predictive power while reducing survey length.  
-- Clear recommendations: *Which question(s) could be removed in future surveys?* What trade-offs (accuracy vs. survey length) do you observe?
 
----
-
-## Getting Started
-
-### Requirements (suggested)
-- Python 3.9+
-- [`pandas`](https://pandas.pydata.org/)
-- [`numpy`](https://numpy.org/)
-- [`scikit-learn`](https://scikit-learn.org/stable/)
-- Optional: `matplotlib`, `shap`
 
 ```bash
 # clone (use the exact repo name below)
